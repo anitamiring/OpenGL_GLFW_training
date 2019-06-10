@@ -1,0 +1,18 @@
+﻿  glad.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\shared\minwindef.h(130,1): warning C4005:  "APIENTRY": ponowna definicja makra
+D:\OpenGL\GLAD\include\glad\glad.h(32): message :  zobacz poprzednią definicję „APIENTRY”
+  main.cpp
+main.obj : error LNK2019: nierozpoznany zewnętrzny symbol glfwInit przywołany w funkcji main
+main.obj : error LNK2019: nierozpoznany zewnętrzny symbol glfwTerminate przywołany w funkcji main
+main.obj : error LNK2019: nierozpoznany zewnętrzny symbol glfwWindowHint przywołany w funkcji main
+main.obj : error LNK2019: nierozpoznany zewnętrzny symbol glfwCreateWindow przywołany w funkcji main
+main.obj : error LNK2019: nierozpoznany zewnętrzny symbol glfwWindowShouldClose przywołany w funkcji main
+main.obj : error LNK2019: nierozpoznany zewnętrzny symbol glfwSetWindowShouldClose przywołany w funkcji "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPEAUGLFWwindow@@@Z)
+main.obj : error LNK2019: nierozpoznany zewnętrzny symbol glfwSetFramebufferSizeCallback przywołany w funkcji main
+main.obj : error LNK2019: nierozpoznany zewnętrzny symbol glfwPollEvents przywołany w funkcji main
+main.obj : error LNK2019: nierozpoznany zewnętrzny symbol glfwGetKey przywołany w funkcji "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPEAUGLFWwindow@@@Z)
+main.obj : error LNK2019: nierozpoznany zewnętrzny symbol glfwMakeContextCurrent przywołany w funkcji main
+main.obj : error LNK2019: nierozpoznany zewnętrzny symbol glfwSwapBuffers przywołany w funkcji main
+main.obj : error LNK2019: nierozpoznany zewnętrzny symbol glfwGetProcAddress przywołany w funkcji main
+D:\OpenGL\glfw-3.3.bin.WIN32\glfw-3.3.bin.WIN32\lib-vc2017\glfw3.lib : warning LNK4272: wystąpił konflikt typu maszyny biblioteki „x86” z typem maszyny docelowej „x64”
+D:\OpenGL\Repo\OpenGL_GLFW_training\x64\Debug\OpenGL_GLFW.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 12

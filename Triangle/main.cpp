@@ -5,7 +5,7 @@
 
 void framebufferSizeCallback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow* window);
-
+//vvvv
 int main(int argv, char* argc[])
 {
 	glfwInit();
