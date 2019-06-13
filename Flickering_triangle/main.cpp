@@ -70,7 +70,7 @@ int main(int argv, char* argc)
 
 		float timeValue = glfwGetTime();
 		float greenValue = (sin(timeValue) / 2.0f) + 0.5f;
-		float redValue = (sin(timeValue) / 2.0f) + 0.5f;
+		float redValue = (cos(timeValue) / 2.0f) + 0.5f;
 		int vertexColorLocation = glGetUniformLocation(shaderProgram.ID, "ourColor");
 		shaderProgram.use();
 		glUniform4f(vertexColorLocation, redValue, greenValue, 0.0f, 1.0f);
