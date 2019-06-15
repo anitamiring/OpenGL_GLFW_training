@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Wireframe_rectangle", "Wire
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Flickering_triangle", "Flickering_triangle\Flickering_triangle.vcxproj", "{DC940F7C-6909-4552-BEE3-7617E6C9DFE5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Textured_triangle", "Textured_triangle\Textured_triangle.vcxproj", "{777A6984-6279-4BF9-9388-8D6C65C2EE3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{DC940F7C-6909-4552-BEE3-7617E6C9DFE5}.Release|x64.Build.0 = Release|x64
 		{DC940F7C-6909-4552-BEE3-7617E6C9DFE5}.Release|x86.ActiveCfg = Release|Win32
 		{DC940F7C-6909-4552-BEE3-7617E6C9DFE5}.Release|x86.Build.0 = Release|Win32
+		{777A6984-6279-4BF9-9388-8D6C65C2EE3B}.Debug|x64.ActiveCfg = Debug|x64
+		{777A6984-6279-4BF9-9388-8D6C65C2EE3B}.Debug|x64.Build.0 = Debug|x64
+		{777A6984-6279-4BF9-9388-8D6C65C2EE3B}.Debug|x86.ActiveCfg = Debug|Win32
+		{777A6984-6279-4BF9-9388-8D6C65C2EE3B}.Debug|x86.Build.0 = Debug|Win32
+		{777A6984-6279-4BF9-9388-8D6C65C2EE3B}.Release|x64.ActiveCfg = Release|x64
+		{777A6984-6279-4BF9-9388-8D6C65C2EE3B}.Release|x64.Build.0 = Release|x64
+		{777A6984-6279-4BF9-9388-8D6C65C2EE3B}.Release|x86.ActiveCfg = Release|Win32
+		{777A6984-6279-4BF9-9388-8D6C65C2EE3B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
