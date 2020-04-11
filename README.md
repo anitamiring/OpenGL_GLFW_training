@@ -1,1 +1,1 @@
-OpenGL_GLFW_training
+OpenGL GLFW training
